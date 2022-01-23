@@ -14,7 +14,7 @@
 
 body {
     background-color: #f2f2f2;
-    font-family: 'Ruda', sans-serif;
+    font-family: 'Helvetica';
     font-weight: 400;
     font-size: 14px;
     color: #555;
@@ -26,7 +26,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Ruda', sans-serif;
+    font-family: 'Helvetica';
     font-weight: 900;
     color: #333;
 }
@@ -44,6 +44,14 @@ p {
 
 .goleft {
 	text-align: left;
+}
+
+.vvb {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-family: 'Helvetica';
+	font-size: 20px;
+	color:#ffffff;
 }
 
 /* Links */
@@ -131,7 +139,7 @@ border-bottom-width: 0px;
 
 /* Description Styling / Used in portfolio & Blog images footnotes */
 .desc p {
-	font-family: 'Ruda', sans-serif;
+	font-family: 'Helvetica';
 	font-size: 16px;
 	font-weight: 700;
 	margin-top: 15px;
@@ -149,14 +157,14 @@ border-bottom-width: 0px;
 }
 
 .desc p.lead {
-    font-family: 'Ruda', sans-serif;
+    font-family: 'Helvetica';
     font-weight: 400;
     font-size: 14px;
     margin-top: -15px;
 }
 
 .desc p.time {
-    font-family: 'Ruda', sans-serif;
+    font-family: 'Helvetica';
     font-weight: 400;
     font-size: 12px;
     margin-top: 0px;
@@ -189,7 +197,7 @@ p.capitalize {
 p.capitalize:first-letter {
 	text-transform:capitalize; 
 	font-size: 30px;
-	font-family: 'Ruda', sans-serif;
+	font-family: 'Helvetica';
 	font-weight: 400;
 	color:white; 
 	padding-left:10px; 
@@ -203,7 +211,7 @@ p.capitalize:first-letter {
   color: #ffffff;
   background-color: transparent;
   border-color: #ffffff;
-  font-family: 'Ruda', sans-serif;
+  font-family: 'Helvetica';
   font-size: 13px;
   letter-spacing: 2px;
   margin-bottom: 25px;
@@ -224,7 +232,7 @@ p.capitalize:first-letter {
   color: #ffffff;
   background-color: transparent;
   border-color: #ffffff;
-  font-family: 'Ruda', sans-serif;
+  font-family: 'Helvetica';
   font-size: 13px;
   letter-spacing: 2px;
   margin-bottom: 25px;
@@ -245,7 +253,7 @@ p.capitalize:first-letter {
   color: #2f2f2f;
   background-color: #ffd56c;
   border-color: #ffffff;
-  font-family: 'Ruda', sans-serif;
+  font-family: 'Helvetica';
   font-size: 13px;
   letter-spacing: 2px;
   margin-bottom: 25px;
@@ -322,12 +330,12 @@ p.capitalize:first-letter {
 /* ================== MAIN WRAP SECTIONS ================== */
 
 #headerwrap {
-	background: url(../img/bg01.jpg) no-repeat center top;
+	background-color:darkslategray;
 	margin-top: 0px;
-	padding-top: 50px;
+	padding-top: 0px;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 450px;
+	min-height: 30px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
