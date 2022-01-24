@@ -230,6 +230,7 @@ p.capitalize:first-letter {
 	font-size: 50px;
 	font-weight: 300;
 	letter-spacing: 2px;
+	visibility: visible;
 }
 
 #headerwrap h2 {
