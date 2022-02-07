@@ -33,9 +33,21 @@ img {
     width: 50%;
 }
 
-.bottom {
+.below {
     font-weight: 700;
     font-size: 16px;
     color: #555;
     margin-bottom: 40px;
+}
+
+.top {
+    margin-top: 40px
+}
+
+.bottom {
+    margin-bottom: 40px
+}
+
+.center {
+    margin-left: 120px;
 }
