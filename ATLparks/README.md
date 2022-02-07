@@ -7,3 +7,5 @@ Findings: I learned that there is a slight relationship between the number of pa
 Data sources: Atlanta Regional Commission, Greenspace Shapefile: https://opendata.atlantaregional.com/datasets/GARC::greenspace/explore?location=33.794949%2C-84.387050%2C9.00 Atlanta Regional Commission, City of Atlanta Council Districts Shapefile: https://opendata.atlantaregional.com/datasets/GARC::city-of-atlanta-council-districts/about Department of City Planning, City Council Districts: https://www.atlantaga.gov/i-want-to/search?q=at%20a%20glance#!#Y7mDdvIp0X Department of Parks and Recreation, List of Parks: https://www.atlantaga.gov/government/departments/parks-recreation/office-of-parks/list-of-parks-alphabetical
 
 What I'd like to do next: conduct the same analysis on a more granular level by using neighborhoods rather than City Countil Districts.
+
+Link to project: https://tanazm.github.io/ATLparks/
