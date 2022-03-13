@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+    background-color: #f2f2f2;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555;
+}
+
+.text-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#parks {
+    font-family: 'Source Sans Pro', sans-serif'
+}
+
+img {
+    max-width: 100%
+}
+
+.full-size-image {
+    background-image: url("assets/libcoverpic.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.graphic {
+    width: 50%;
+}
+
+.below {
+    font-weight: 700;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.top {
+    margin-top: 40px
+}
+
+.bottom {
+    margin-bottom: 40px
+}
+
+.center {
+    margin-left: 120px;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2em;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .row-container {
+         flex-direction: column;
+    }
+}
