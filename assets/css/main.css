@@ -9,7 +9,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    color: #555;
+    color: #b4b0b0;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -61,7 +61,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
+    color: #b4b0b0;
     text-decoration: none;
     outline: 0;
 }
@@ -162,7 +162,7 @@ border-bottom-width: 0px;
     font-weight: 400;
     font-size: 12px;
     margin-top: 0px;
-	color: #979797;
+	color: #b4b0b0;
 	text-align: right;
 }
 
@@ -236,6 +236,41 @@ p.capitalize:first-letter {
 #headerwrap h2 {
 	color: white;
 
+}
+
+.space {
+	background-color:#b4b0b0;
+	width: auto;
+	color: #ffffff;
+	font-weight: 300;
+
+}
+
+.skills1 {
+	color: #000000;
+	font-weight: 900;
+
+}
+
+#skills2 {
+	color: rgb(0, 0, 0);
+	font-weight: 300;
+
+}
+
+.tip {
+	display: block;
+	margin-top: 10%;
+	color: #000000;
+	font-weight: 900;
+
+}
+.skillsimage {
+	margin-top: 10%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	vertical-align: middle;
+	float:left;
 }
 
 #headerwrap .img-responsive {
