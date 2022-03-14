@@ -52,23 +52,20 @@ img {
     margin-left: 120px;
 }
 
+
 .row-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    gap: 2em;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 2em;
 }
 
 .column-container {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
+  flex-grow: 1;
 }
 
 @media (max-width: 768px) {
-    .row-container {
-         flex-direction: column;
-    }
+  .row-container {
+    flex-direction: column;
+  }
 }

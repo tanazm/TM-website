@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+        <link rel='stylesheet' href='article-styles.css'>
+        <title>Libraries</title>
+        <div class='topnav'>
+            <a href='https://tanazm.github.io/'>Return to homepage</a>
+            <a href=''>Read about this project</a>
+        </div>
+    </head>
+    <body>
+        <div class="text-container">
+            <div class="text-center">
+            <h1 class='headline'>The pandemic changed rush hour traffic, and Citi Bike felt the impacts</h1>
+            <img class=header-image src='assets/publiclibrary.png'>
+            <p class='photo-caption'>Emmet O'Neal Library in Mountainbrook, Alabama</p>
+            <p class='date'>
+                <a class='byline' href="mailto:tm3208@columbia.edu">By Tanaz Meghjani</a>
+                March 12, 2022
+            </p>
+            <p class=text>
+                In the early months of the pandemic, many New Yorkers turned from subways and buses to cycling. Bike sales jumped, and so did use of the city's bike-share system, Citi Bike. 
+                <br><br>Now, with the city long reopened, Citi Bike ridership is at an all-time high, with a record 3.3 million rides logged in September 2021, the company's highest monthly total. 
+                Between 2018 and 2021, total annual Citi Bike rides have jumped 58%, data <a href='https://ride.citibikenyc.com/system-data'>published by the company</a> shows.
+                <br><br>But ridership patterns throughout the day have shifted, an analysis of the last four years of New York City ridership data shows. In the work-from-home era, the data shows suggests that people are using Citi Bike more everyday travel and less for commuting during the pandemic.
+            </p>
+            <p class='subhead'>Citi Bike's growth</p>
+            <p>Cycling has exploded across New York City during the pandemic. The city saw a 33% growth in cycling between May and December 2020 and a 63% growth in weekend cycling over the same timeframe, according to the Department of Transit's latest <a href='https://www1.nyc.gov/html/dot/downloads/pdf/cycling-in-the-city-2021.pdf'>report</a> on cycling trends, released September 2021. 
+            <br><br>That growth is reflected in Citi Bike, as ridership has exceeded 2019 monthly ridership levels since October 2020. MTA Subway ridership, on the other hand, has only reached half of what it was before the pandemic, according to <a href='https://new.mta.info/coronavirus/ridership'>daily ridership data</a> released by the agency. 
+            </p>
+            </div>
+            <div class='viz-container'>
+                <script type="text/javascript">
+                    (function() {
+                        // only want one resizer on the page
+                        if (document.documentElement.className.indexOf("g-resizer-v3-init") > -1) return;
+                        document.documentElement.className += " g-resizer-v3-init";
+                        // require IE9+
+                        if (!("querySelector" in document)) return;
+                        function resizer() {
+                            var elements = Array.prototype.slice.call(document.querySelectorAll(".g-artboard[data-min-width]")),
+                                widthById = {};
+                            elements.forEach(function(el) {
+                                var parent = el.parentNode,
+                                    width = widthById[parent.id] || parent.getBoundingClientRect().width,
+                                    minwidth = el.getAttribute("data-min-width"),
+                                    maxwidth = el.getAttribute("data-max-width");
+                                widthById[parent.id] = width;
+                
+                                if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+                                    el.style.display = "block";
+                                } else {
+                                    el.style.display = "none";
+                                }
+                            });
+                            try {
+                                if (window.parent && window.parent.$) {
+                                    window.parent.$("body").trigger("resizedcontent", [window]);
+                                }
+                                if (window.require) {
+                                    require(['foundation/main'], function() {
+                                        require(['shared/interactive/instances/app-communicator'], function(AppCommunicator) {
+                                            AppCommunicator.triggerResize();
+                                        });
+                                    });
+                                }
+                            } catch(e) { console.log(e); }
+                        }
+                
+                        document.addEventListener('DOMContentLoaded', resizer);
+                        // feel free to replace throttle with _.throttle, if available
+                        window.addEventListener('resize', throttle(resizer, 200));        
+                
+                        function throttle(func, wait) {
+                            // from underscore.js
+                            var _now = Date.now || function() { return new Date().getTime(); },
+                                context, args, result, timeout = null, previous = 0;
+                            var later = function() {
+                                previous = _now();
+                                timeout = null;
+                                result = func.apply(context, args);
+                                if (!timeout) context = args = null;
+                            };
+                            return function() {
+                                var now = _now(), remaining = wait - (now - previous);
+                                context = this;
+                                args = arguments;
+                                if (remaining <= 0 || remaining > wait) {
+                                    if (timeout) {
+                                        clearTimeout(timeout);
+                                        timeout = null;
+                                    }
+                                    previous = now;
+                                    result = func.apply(context, args);
+                                    if (!timeout) context = args = null;
+                                } else if (!timeout && options.trailing !== false) {
+                                    timeout = setTimeout(later, remaining);
+                                }
+                                return result;
+                            };
+                        }
+                
+                       
+                    })();
+                </script>
+                
+                <!-- Generated by ai2html v0.106.0 - 2022-03-13 13:10 -->
+                <!-- ai file: libraryaccessfinal.ai -->
+                <style media="screen,print">
+                    #g-libraryaccessfinal-box ,
+                    #g-libraryaccessfinal-box .g-artboard {
+                        margin:0 auto;
+                    }
+                    #g-libraryaccessfinal-box p {
+                        margin:0;
+                    }
+                    #g-libraryaccessfinal-box .g-aiAbs {
+                        position:absolute;
+                    }
+                    #g-libraryaccessfinal-box .g-aiImg {
+                        position:absolute;
+                        top:0;
+                        display:block;
+                        width:100% !important;
+                    }
+                    #g-libraryaccessfinal-box .g-aiSymbol {
+                        position: absolute;
+                        box-sizing: border-box;
+                    }
+                    #g-libraryaccessfinal-box .g-aiPointText p { white-space: nowrap; }
+                    #g-libraryaccessfinal-Mobile {
+                        position:relative;
+                        overflow:hidden;
+                    }
+                    #g-libraryaccessfinal-Mobile p {
+                        font-family:Avenir Light;
+                        font-weight:400;
+                        line-height:14px;
+                        height:auto;
+                        opacity:1;
+                        letter-spacing:0em;
+                        font-size:12px;
+                        text-align:left;
+                        color:rgb(0,0,0);
+                        text-transform:none;
+                        padding-bottom:0;
+                        padding-top:0;
+                        mix-blend-mode:normal;
+                        font-style:normal;
+                        position:static;
+                    }
+                    #g-libraryaccessfinal-Mobile .g-pstyle0 {
+                        font-family:Avenir Black;
+                        font-weight:700;
+                        line-height:17px;
+                        height:17px;
+                        font-size:14px;
+                    }
+                    #g-libraryaccessfinal-Mobile .g-pstyle1 {
+                        height:14px;
+                    }
+                    #g-libraryaccessfinal-Mobile .g-pstyle2 {
+                        height:14px;
+                        color:rgb(255,255,255);
+                    }
+                    #g-libraryaccessfinal-laptop {
+                        position:relative;
+                        overflow:hidden;
+                    }
+                    #g-libraryaccessfinal-laptop p {
+                        font-family:Avenir Light;
+                        font-weight:400;
+                        line-height:23px;
+                        height:auto;
+                        opacity:1;
+                        letter-spacing:0em;
+                        font-size:19px;
+                        text-align:left;
+                        color:rgb(0,0,0);
+                        text-transform:none;
+                        padding-bottom:0;
+                        padding-top:0;
+                        mix-blend-mode:normal;
+                        font-style:normal;
+                        position:static;
+                    }
+                    #g-libraryaccessfinal-laptop .g-pstyle0 {
+                        font-family:Avenir Black;
+                        font-weight:700;
+                        line-height:35px;
+                        height:35px;
+                        font-size:29px;
+                    }
+                    #g-libraryaccessfinal-laptop .g-pstyle1 {
+                        height:23px;
+                    }
+                    #g-libraryaccessfinal-laptop .g-pstyle2 {
+                        height:23px;
+                        color:rgb(255,255,255);
+                    }
+                
+                </style>
+                
+                <div id="g-libraryaccessfinal-box" class="ai2html">
+                
+                    <!-- Artboard: Mobile -->
+                    <div id="g-libraryaccessfinal-Mobile" class="g-artboard" style="max-width: 377px;max-height: 413px" data-aspect-ratio="0.914" data-min-width="0" data-max-width="705">
+                <div style="padding: 0 0 109.4369% 0;"></div>
+                        <img id="g-libraryaccessfinal-Mobile-img" class="g-aiImg" alt="" src="assets/libraryaccessfinal-Mobile.png"/>
+                        <div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:8.2595%;margin-top:-19.1px;left:7.9032%;width:332px;">
+                            <p class="g-pstyle0">Residents of southern states live further away </p>
+                            <p class="g-pstyle0">from public libraries</p>
+                        </div>
+                        <div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:15.1787%;margin-top:-7.6px;left:7.9032%;width:339px;">
+                            <p class="g-pstyle1">Percent of population that lives 6+ miles away from a library</p>
+                        </div>
+                        <div id="g-ai0-3" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:20.5111%;margin-top:-7.6px;left:12.2302%;width:91px;">
+                            <p class="g-pstyle1">Metropolitan</p>
+                        </div>
+                        <div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:20.5111%;margin-top:-7.6px;left:36.9633%;width:118px;">
+                            <p class="g-pstyle1">Non-metropolitan</p>
+                        </div>
+                        <div id="g-ai0-5" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:27.7824%;margin-top:-7.6px;left:8.0125%;width:75px;">
+                            <p class="g-pstyle1">Northeast</p>
+                        </div>
+                        <div id="g-ai0-6" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:32.63%;margin-top:-7.6px;left:12.8229%;width:47px;">
+                            <p class="g-pstyle1">0.9%</p>
+                        </div>
+                        <div id="g-ai0-7" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:37.72%;margin-top:-7.6px;left:9.4457%;width:47px;">
+                            <p class="g-pstyle1">8.8%</p>
+                        </div>
+                        <div id="g-ai0-8" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:45.4761%;margin-top:-7.6px;left:8.0125%;width:67px;">
+                            <p class="g-pstyle1">Midwest</p>
+                        </div>
+                        <div id="g-ai0-9" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:50.5661%;margin-top:-7.6px;left:9.3153%;width:47px;">
+                            <p class="g-pstyle2">2.6%</p>
+                        </div>
+                        <div id="g-ai0-10" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:55.656%;margin-top:-7.6px;left:9.5635%;width:54px;">
+                            <p class="g-pstyle1">15.2%</p>
+                        </div>
+                        <div id="g-ai0-11" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:63.4121%;margin-top:-7.6px;left:8.0125%;width:49px;">
+                            <p class="g-pstyle1">West</p>
+                        </div>
+                        <div id="g-ai0-12" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:68.7445%;margin-top:-7.6px;left:9.5635%;width:47px;">
+                            <p class="g-pstyle2">2.5%</p>
+                        </div>
+                        <div id="g-ai0-13" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:73.592%;margin-top:-7.6px;left:9.5635%;width:54px;">
+                            <p class="g-pstyle1">18.7%</p>
+                        </div>
+                        <div id="g-ai0-14" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:81.3482%;margin-top:-7.6px;left:8.0125%;width:53px;">
+                            <p class="g-pstyle1">South</p>
+                        </div>
+                        <div id="g-ai0-15" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:86.4381%;margin-top:-7.6px;left:9.5635%;width:47px;">
+                            <p class="g-pstyle2">5.7%</p>
+                        </div>
+                        <div id="g-ai0-16" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:91.5281%;margin-top:-7.6px;left:9.4584%;width:54px;">
+                            <p class="g-pstyle1">24.6%</p>
+                        </div>
+                    </div>
+                
+                    <!-- Artboard: laptop -->
+                    <div id="g-libraryaccessfinal-laptop" class="g-artboard" style="width:706px; height:585.498890179652px;" data-aspect-ratio="1.206" data-min-width="706">
+                <div style=""></div>
+                        <img id="g-libraryaccessfinal-laptop-img" class="g-aiImg" alt="" src="assets/libraryaccessfinal-laptop.png"/>
+                        <div id="g-ai1-1" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:10.1468%;margin-top:-39.4px;left:3.4358%;width:664px;">
+                            <p class="g-pstyle0">Residents of southern states live further away </p>
+                            <p class="g-pstyle0">from public libraries</p>
+                        </div>
+                        <div id="g-ai1-2" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:19.2123%;margin-top:-12.5px;left:3.0276%;width:524px;">
+                            <p class="g-pstyle1">Percent of population that lives 6+ miles away from a library</p>
+                        </div>
+                        <div id="g-ai1-3" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:25.1901%;margin-top:-12.5px;left:7.9039%;width:132px;">
+                            <p class="g-pstyle1">Metropolitan</p>
+                        </div>
+                        <div id="g-ai1-4" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:25.1901%;margin-top:-12.5px;left:35.4463%;width:174px;">
+                            <p class="g-pstyle1">Non-metropolitan</p>
+                        </div>
+                        <div id="g-ai1-5" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:33.9006%;margin-top:-12.5px;left:3.2987%;width:106px;">
+                            <p class="g-pstyle1">Northeast</p>
+                        </div>
+                        <div id="g-ai1-6" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:38.5121%;margin-top:-12.5px;left:8.1843%;width:62px;">
+                            <p class="g-pstyle1">0.9%</p>
+                        </div>
+                        <div id="g-ai1-7" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:43.2944%;margin-top:-12.5px;left:5.1343%;width:62px;">
+                            <p class="g-pstyle1">8.8%</p>
+                        </div>
+                        <div id="g-ai1-8" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:50.2969%;margin-top:-12.5px;left:3.3298%;width:93px;">
+                            <p class="g-pstyle1">Midwest</p>
+                        </div>
+                        <div id="g-ai1-9" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:54.9084%;margin-top:-12.5px;left:5.1343%;width:62px;">
+                            <p class="g-pstyle2">2.6%</p>
+                        </div>
+                        <div id="g-ai1-10" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:59.6906%;margin-top:-12.5px;left:5.1343%;width:72px;">
+                            <p class="g-pstyle1">15.2%</p>
+                        </div>
+                        <div id="g-ai1-11" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:66.6932%;margin-top:-12.5px;left:3.4613%;width:65px;">
+                            <p class="g-pstyle1">West</p>
+                        </div>
+                        <div id="g-ai1-12" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:71.6462%;margin-top:-12.5px;left:5.2621%;width:62px;">
+                            <p class="g-pstyle2">2.5%</p>
+                        </div>
+                        <div id="g-ai1-13" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:76.2577%;margin-top:-12.5px;left:5.4303%;width:72px;">
+                            <p class="g-pstyle1">18.7%</p>
+                        </div>
+                        <div id="g-ai1-14" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:83.2602%;margin-top:-12.5px;left:3.6009%;width:71px;">
+                            <p class="g-pstyle1">South</p>
+                        </div>
+                        <div id="g-ai1-15" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:88.0425%;margin-top:-12.5px;left:5.3898%;width:62px;">
+                            <p class="g-pstyle2">5.7%</p>
+                        </div>
+                        <div id="g-ai1-16" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:92.6539%;margin-top:-12.5px;left:5.2621%;width:72px;">
+                            <p class="g-pstyle1">24.6%</p>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                <!-- End ai2html - 2022-03-13 13:10 -->
+            </div>
+            <div class="text-center">
+            <p class='viz-caption'>Pre-pandemic ridership levels for Citi Bike were calculated by taking the total number of rides for each month in 2019. For MTA subway, they were figured by taking the median each month of the daily values for percent of pre-pandemic ridership provided by the MTA.</p>
+            <p>Citi Bike has also expanded since 2018, accounting for some of its growth. The rideshare program has grown from about 850 to over 1,600 stations in the last four years, the data shows, including expanding the number of docks available in outer boroughs.  
+            <br><br>While the data doesn't show whether would-be subway riders are opting for Citi Bike, spikes in Citi Bike usage occurred when the subway faced outages. In the aftermath of Hurricane Ida, when subway stations were flooded and every subway line experienced limited or no service, Citi Bike <a href='https://ride.citibikenyc.com/blog/citi-bike-breaks-single-day-ridership-record-during-tropical-storm-recovery'>broke a daily ridership record</a> on Sept. 2, 2021. 
+            </p>
+            <p class="subhead">Daily ridership patterns shift</p>
+            <p>
+                In 2018 and 2019, rides peaked between 8 and 9 a.m. and between 5 p.m. and 7 p.m. But over the last two years, while the evening rush remains, rides are more evenly distributed throughout daytime hours. 
+                <br><br>Non-member ridership has grown as well, further pointing to the shift from commuting for Citi Bike. The percentage of rides taken by those who pay per ride or per day rather than those who pay a $185 annual membership fee for unlimited rides has grown from 11% of all rides in 2018 to 30% in 2021. 
+                <br><br>The shift has meant that riders are encountering empty stations when they're in need of a bike and full ones where they're looking to dock. Citi Bike acknowledged this in a <a href='https://ride.citibikenyc.com/blog/ridershiprecords'>September 2021 blog post</a>, with representatives voicing efforts to adapt the rideshare system to rising and shifting demand. 
+            </p>
+            <div class='viz-container'>
+                <img src='citibike-daily.png' alt='Citi Bike ridership shifted during the pandemic, with fewer rides during the morning rush.'>
+            </div>
+            <p>
+                "Riding patterns are more complicated and unpredictable than ever, with hybrid work schedules layered on top of schools reopening, and warm weather recreational rides that don't follow traditional commuting patterns, creating imbalances in the system," a Citi Bike representative wrote in the post.
+                <br><br>These unpredictable patterns are visible not only in when riders get on bikes, but also where they;re going. Midday and afternoon rides in 2018 and 2019 clustered in Midtown, for example, while 2020 and 2021 rides are more scattered. Many of the most popular start and end points for rides are on Manhattan's west side, near the Hudson River Greenway, suggested a possible shift to more recreational rides. 
+                <br><br>The top ten most popular stations to start and end a ride throughout the day in each of the last four years are displayed on the two maps below. Toggle the hour with the navigation pane to the right of the ma, or click the play button to watch how rides change throughout the day. 
+            </p>
+            <p class='footnote'>This story was done for Data Studio, a class in the Columbia Journalism School. To view the source code and read more about the project, visit the GitHub repository here.</p>
+            </div>
+            <div class='viz-container'>
+                <div class="row-container">
+                    <div class="column-container">
+
+                    <!-- Generated by ai2html v0.106.0 - 2022-03-14 00:19 -->
+                    <!-- ai file: ALlibrariesfinal.ai -->
+                    <style media="screen,print">
+                        #g-ALlibrariesfinal-box ,
+                        #g-ALlibrariesfinal-box .g-artboard {
+                            margin:0 auto;
+                        }
+                        #g-ALlibrariesfinal-box p {
+                            margin:0;
+                        }
+                        #g-ALlibrariesfinal-box .g-aiAbs {
+                            position:absolute;
+                        }
+                        #g-ALlibrariesfinal-box .g-aiImg {
+                            position:absolute;
+                            top:0;
+                            display:block;
+                            width:100% !important;
+                        }
+                        #g-ALlibrariesfinal-box .g-aiSymbol {
+                            position: absolute;
+                            box-sizing: border-box;
+                        }
+                        #g-ALlibrariesfinal-box .g-aiPointText p { white-space: nowrap; }
+                        #g-ALlibrariesfinal-Artboard_6 {
+                            position:relative;
+                            overflow:hidden;
+                        }
+                        #g-ALlibrariesfinal-Artboard_6 p {
+                            font-family:Avenir Light;
+                            font-weight:400;
+                            line-height:18px;
+                            height:auto;
+                            opacity:1;
+                            letter-spacing:0em;
+                            font-size:15px;
+                            text-align:left;
+                            color:rgb(0,0,0);
+                            text-transform:none;
+                            padding-bottom:0;
+                            padding-top:0;
+                            mix-blend-mode:normal;
+                            font-style:normal;
+                            position:static;
+                        }
+                        #g-ALlibrariesfinal-Artboard_6 .g-pstyle0 {
+                            height:18px;
+                        }
+
+                    </style>
+
+                    <div id="g-ALlibrariesfinal-box" class="ai2html">
+
+                        <!-- Artboard: Artboard_6 -->
+                        <div id="g-ALlibrariesfinal-Artboard_6" class="g-artboard" style="max-width: 800px;max-height: 700px" data-aspect-ratio="1.143" data-min-width="0">
+                    <div style="padding: 0 0 87.5% 0;"></div>
+                            <img id="g-ALlibrariesfinal-Artboard_6-img" class="g-aiImg" alt="" src="assets/ALlibrariesfinal-Artboard_6.jpg"/>
+                            <div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:19.54%;margin-top:-9.8px;left:62.4546%;width:67px;">
+                                <p class="g-pstyle0">Library</p>
+                            </div>
+                            <div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:25.9686%;margin-top:-9.8px;left:62.3373%;width:106px;">
+                                <p class="g-pstyle0">6 mile radius</p>
+                            </div>
+                            <div id="g-ai0-3" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:32.2543%;margin-top:-9.8px;left:62.4711%;width:146px;">
+                                <p class="g-pstyle0">Population density</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- End ai2html - 2022-03-14 00:19 -->
+
+                    </div>
+                    <div class="column-container">
+                
+                
+                <!-- Generated by ai2html v0.106.0 - 2022-03-13 16:01 -->
+                <!-- ai file: MAlibs.svg -->
+                <style media="screen,print">
+                    #g-MAlibs_svg-box ,
+                    #g-MAlibs_svg-box .g-artboard {
+                        margin:0 auto;
+                    }
+                    #g-MAlibs_svg-box p {
+                        margin:0;
+                    }
+                    #g-MAlibs_svg-box .g-aiAbs {
+                        position:absolute;
+                    }
+                    #g-MAlibs_svg-box .g-aiImg {
+                        position:absolute;
+                        top:0;
+                        display:block;
+                        width:100% !important;
+                    }
+                    #g-MAlibs_svg-box .g-aiSymbol {
+                        position: absolute;
+                        box-sizing: border-box;
+                    }
+                    #g-MAlibs_svg-box .g-aiPointText p { white-space: nowrap; }
+                    #g-MAlibs_svg-Artboard_1 {
+                        position:relative;
+                        overflow:hidden;
+                    }
+                
+                </style>
+                
+                <div id="g-MAlibs_svg-box" class="ai2html">
+                
+                    <!-- Artboard: Artboard_1 -->
+                    <div id="g-MAlibs_svg-Artboard_1" class="g-artboard" style="max-width: 800px;max-height: 700px" data-aspect-ratio="1.143" data-min-width="0">
+                <div style="padding: 0 0 87.5% 0;"></div>
+                        <img id="g-MAlibs_svg-Artboard_1-img" class="g-aiImg" alt="" src="assets/MAlibs_svg-Artboard_1.png"/>
+                    </div>
+                
+                </div>
+                
+                <!-- End ai2html - 2022-03-13 16:01 -->
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
