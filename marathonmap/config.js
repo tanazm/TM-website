@@ -10,8 +10,8 @@ var config = {
     theme: 'dark',
     title: "THE BROOKLYN MARATHON'S NEW RACE COURSE",
     subtitle: "On April 24th, 2022, over 20,000 participants will run this course for the first time.",
+    footer: 'Route: NYCRUNS website; Context: The New York Times, Intelligencer, Greenpointers, Find My Marathon, TimeOut',
     use3dTerrain: false, //set true for enabling 3D maps.
-
     chapters: [
         {
             id: 'starting',
