@@ -72,6 +72,7 @@ var config = {
             hidden: false,
             title: 'STARTING LINE',
             image: './images/park.png',
+            image_description: "McCarren Park",
             description: 'The race used to kick off on Eastern Parkway by the Brooklyn Museum, but it now begins at McCarren Park. NYCRUNS organizes the marathon and wanted to begin the race here in northern Brooklyn so the route could work its way downward and span more of the borough.',
             location: {
                 center: [-73.94967, 40.72162],
@@ -91,7 +92,8 @@ var config = {
             hidden: false,
             title: 'MILE 6',
             image: './images/dumbo.png',
-            description: 'Most runners are excited about the new route, but some worry about running on Dumbo’s cobblestoned.streets.',
+            image_description: "Cobblestoned streets in Dumbo, Brooklyn",
+            description: 'Most runners are excited about the new route, but some worry about running on Dumbo’s cobblestoned streets.',
             location: {
                 center: [-73.99226, 40.70399],
                 zoom: 14.76,
@@ -110,6 +112,7 @@ var config = {
             hidden: false,
             title: 'MILES 8-10',
             image: './images/elevation.png',
+            image_description: "Chart showing elevation gain during each mile of the marathon",
             description: 'The route’s longest climb takes place on Flatbush Avenue and Eastern Parkway—between miles 8 and 10.',
             location: {
                 center: [-73.96763, 40.68179],
